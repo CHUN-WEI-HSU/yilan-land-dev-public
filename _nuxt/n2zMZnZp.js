@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./xfwkqsNq.js","./CtiptTIU.js","./entry.pS4X3405.css"])))=>i.map(i=>d[i]);
-import{al as o,am as m,ai as d,ae as i}from"./CtiptTIU.js";const _=o(async(n,s)=>{let e,t;const{useAdminAuthStore:r}=([e,t]=m(()=>d(()=>import("./xfwkqsNq.js"),__vite__mapDeps([0,1,2]),import.meta.url)),e=await e,t(),e),a=r();if(a.initFromStorage(),a.isAuthenticated)return i("/admin");if(n.path!=="/admin/login")return i("/admin/login")});export{_ as default};
