@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./CzpplBig.js","./3XD3FR9c.js","./entry.pS4X3405.css"])))=>i.map(i=>d[i]);
+import{al as o,am as m,ai as d,ae as i}from"./3XD3FR9c.js";const _=o(async(n,s)=>{let e,t;const{useAdminAuthStore:r}=([e,t]=m(()=>d(()=>import("./CzpplBig.js"),__vite__mapDeps([0,1,2]),import.meta.url)),e=await e,t(),e),a=r();if(a.initFromStorage(),a.isAuthenticated)return i("/admin");if(n.path!=="/admin/login")return i("/admin/login")});export{_ as default};
